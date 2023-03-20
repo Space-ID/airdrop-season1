@@ -1,2 +1,1 @@
-# airdrop-season1
-formula and result
+# Airdrop Season One

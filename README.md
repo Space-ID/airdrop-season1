@@ -6,7 +6,10 @@ https://docs.google.com/spreadsheets/d/1v-adBFGal7nPF2YZO2_95srUx4gvGrpvjzPo3J4J
 <br>
 **Formula**
 ```math
-basePoint=0.12*holdingDays+0.08*min(365 - holdingDays,daystoExpiry)+0.1*max(daysToExpiry+holdingDays-365,0)+
+basePoint=0.12*holdingDays+0.08*min(365 - holdingDays,daystoExpiry)+
+```
+```math
+0.1*max(daysToExpiry+holdingDays-365,0)+
 ```
 ```math
 max(645*bnb3Character,155*bnb4Character)+max(395*arb3Character,75*bnb4Character)+
